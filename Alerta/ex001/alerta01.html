@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <meta charset="UTF-8">
+        </head>
+
+        <body>
+
+            <script type="text/javascript">
+                alert('Bem Vindo!');
+            </script>
+
+            <script>
+                var curso = 'javascript';
+                if (curso === 'javascript') {
+                    alert('Oba! Então inicie agora mesmo seus estudos em JavaScript.');
+                } else {
+                    alert('AH! Parece que JavaScript não é sua linguagem favorita...')
+                }
+            </script>
+
+            <script>
+                function mostraResultado()
+                {
+                    var Valor1 = 10;
+                    var Valor2 = 15;
+                    var resultado = Valor1 * Valor2;
+                    document.getElementById('resultado').innerHTML = resultado;
+                }
+            </script>
+        </body>
+        <p>10 * 15 = <strong id="resultado"></strong></p>
+
+        <input type="button" onclick="mostraResultado()" value="Calcular" id="botao"/>
+    </html>

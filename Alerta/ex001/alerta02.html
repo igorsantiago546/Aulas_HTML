@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <meta charset="UTF-8">
+        </head>
+
+        <body>
+
+            <script type="text/javascript">
+                alert('Hello World!');
+            </script>
+
+            <script type="text/javascript">
+                /* Este é um script para cálculo de idade! */
+
+                // Desclara o ano atual para fazer o cálculo
+                var anoAtual = 2012;
+
+                // Pede que o usuário digite o ano em que nasceu
+                var anoNascimento = prompt('Digite o ano em que você nasceu.');
+
+                // Calcula a idade do usuário e armazena na variável idade
+                var idade = anoAtual - anoNascimento;
+
+                // Mostra ao usuário a idade que ele possui
+                alert("Sua idade é: " + idade + " anos");
+            </script>
+
+            <script>
+
+function mostraResultado()
+{
+    var num1 = 10;
+    var num2 = 15;
+    var num3 = 10;
+    var result = num1 + num2 + num3;
+    document.getElementById('result').innerHTML = result;
+}
+</script>
+<p>10 + 15 + 10= <strong id="result"></strong></p>
+
+<input type="button" onclick="mostraResultado()" value="Calcular" id="botao"/>
+        </body>
+    </html>
