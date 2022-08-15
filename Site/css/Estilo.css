@@ -1,0 +1,19 @@
+
+}
+h1{
+	font-style: italic;
+	color: red;
+	text-align: left;
+	font-size: 150%;
+}
+p {
+	font-style: italic;
+	color: black;
+	text-align: left;
+	font-size: 150%;
+
+}
+
+#fundo {
+	background-color: #FFFF00;
+}
