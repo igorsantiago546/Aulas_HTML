@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"  content="width=device-width">
+
+    <title>Curricúlo</title>
+
+    <link rel="stylesheet" type="text/css" href="C:\Users\igor.smacedo1\OneDrive - SENAC - SP\Área de Trabalho\Formulário - Igor Santiago\css\Estilo.css">
+</head>
+
+<body>
+
+    <h1>Cadastro de Curricúlo</h1>
+
+    <fieldset class="fieldset1">
+
+    <legend class="legend1">Informações Pessoais</legend>
+
+    <form class="form1" action="pagina.html">
+        <label for="Nome_id"> Nome:</label>
+        <input class="Nome"
+        id="Nome_id"
+        type="search"
+        name="Digite o seu nome"
+        placeholder="Digite o seu nome">
+
+        <br>
+
+        <label for="Email_id"> Email:</label>
+        <input class="email"
+        id="Email_id"
+        type="search"
+        name="Digite o seu email"
+        placeholder="Digite o seu email">
+
+        <br>
+
+        <label for="nascimento_id"> Data de Nascimento: </label>
+        <input 
+        id="nascimento_id"
+        type="date"
+        name="nascimento">
+
+        <br>
+        
+        <label for="altura_id"> Altura(cm): </label>
+        <input
+        id="altura_id"
+        type="number"
+        name="altura"
+        min="130"
+        max="220">
+
+        <br>
+
+        <label for="site_id"> Site: </label>
+        <input
+        id="site_id"
+        type="search"
+        name="Facebook, Linkedin,"
+        placeholder="Facebook, Linkedin,">
+
+        <br>
+
+        <label for="estado civil_id"> Estado Civil:</label>
+        <select name="my_html_select_box">
+            <option>Solteiro(a)</option>
+	        <option>Casado(a)</option>
+            <option>Separado(a)</option>
+            <option>Viúvo(a)</option>
+        </select>
+
+        <br>
+
+        <label for="sexo_id">Sexo: </label>
+        <input
+        id="sexo_id"
+        type="radio"
+        name="sexo"
+        value="Masculino"> Masculino </input>
+
+        <input
+        id="sexo_id"
+        type="radio"
+        name="sexo"
+        value="Feminino"> Feminino
+
+    </form>
+
+    </fieldset>
+
+    <fieldset class="fieldset2">
+
+        <legend class="legend2">Endereço</legend>
+
+    <form class="form2" action="pagina.html">
+
+        <label for="cep_id">CEP: </label>
+        <input
+        id="cep_id"
+        type="search"
+        name="cep">
+
+        <br>
+
+        <label for="endereço_id">Endereço: </label>
+        <input
+        id="endereço_id"
+        type="search"
+        name="endereço">
+
+    </form>
+
+    </fieldset>
+        
+
+    <fieldset class="fieldset3">
+
+        <legend class="legend3">Contato</legend>
+
+    <form class="form3" action="pagina.html">
+
+        <label for="telefone_id">Telefone: </label>
+        <input 
+        id="telefone_id"
+        type="search"
+        name="telefone">
+
+        <br>
+
+        <label for="celular_id">Celular: </label>
+        <input
+        id="celular_id"
+        type="search"
+        name="celular">
+
+    </form>
+
+    </fieldset>
+
+    <fieldset class="fieldset4">
+
+        <legend class="legend4">Conhecimentos</legend>
+
+    <form class="form4" action="pagina.html">
+
+
+        <input
+        type="checkbox"
+        name="codigo"
+        value="HTML"> HTML
+
+        <input
+        type="checkbox"
+        name="codigo"
+        value="CSS"> CSS
+
+        <input
+        type="checkbox"
+        name="codigo"
+        value="JavaScript"> JavaScript
+
+        <br>
+
+        <textarea>Digite os seus conhecimentos</textarea>
+
+        <p>Mais conhecimento</p>
+
+    </form>
+
+</body>
+</html>
