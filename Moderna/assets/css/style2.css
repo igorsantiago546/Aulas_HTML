@@ -1,0 +1,83 @@
+body {
+    background-image: url(fundo.jpg);
+    background-repeat: no-repeat;
+    
+}
+
+.fieldset1 {
+    
+    width: 550px;
+    padding: 15px;
+    font-size: 20px;
+    color: aqua;
+    height: 400px;
+    background-image: url(https://media.istockphoto.com/photos/close-up-of-a-black-slate-texture-background-stone-grunge-texture-picture-id1268759368?b=1&k=20&m=1268759368&s=170667a&w=0&h=DIY4qKF5cJYL4uO8C2OoxUMWaw34_j_TPhT7tZXKw5U=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 30%;
+    
+      
+
+}
+
+.form1 {
+    
+    width: 300px;
+    padding: 10px;
+    font-size: 30px;
+    
+    
+}
+
+h1 {
+    text-align: center;
+    color: aqua;
+}
+
+label {
+    height: 10px;
+    width: 10px;
+    font-size: 25px;
+}
+
+input {
+    font-size: 20px;
+    height: 30px;
+    color: rgb(0, 0, 0);
+    width: 500px;
+    padding: 15px;
+}
+
+.a1 {
+    font-size: 20px;
+    height: 30px;
+    
+}
+
+
+.data {
+    font-size: 20px;
+    height: 25px;
+    padding: 7px;
+    width: 50%;
+}
+
+
+.button1 {
+    padding: 9px;
+}
+
+.button2 {
+    margin-left: 39%;
+    padding: 9px;
+}
+
+.button3 {
+    padding: 9px;
+    margin-left: 1%;
+}
+
+.button4 {
+    margin-left: 39%;
+    padding: 9px;
+}
