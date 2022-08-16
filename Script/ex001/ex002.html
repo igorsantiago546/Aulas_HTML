@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>JS Exemplo</title>
+    </head>
+    <body>
+        <p>Nome Completo:</p>
+        <input type="text" name="nome-completo" id="nome-completo" placeholder="Digite seu nome"/>
+        <br />
+        <input type="button" value="Exibir Nome" id="btn-exibir-nome"/>
+        <hr />
+        <script type="text/javascript">
+            document.getElementById("btn-exibir-nome").addEventListener("click", function() {
+                const nomeCompleto = document.getElementById('nome-completo').value;
+                alert('O Nome Completo é: ' + nomeCompleto );
+            })
+        </script>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Traduzir</title>
+</head>
+<body>
+    <p id="paragrafo">Olá!</p>
+    <script>
+        function mFuncao() {
+            var x = document.getElementById("paragrafo");
+            x.innerHTML="Hello!";
+        }
+    </script>
+    <button type="button" onclick="mFuncao();"> Translate</button>
+
+    <script>
+        function trocaImagem() {
+            var elemento=document.getElementById("myimage");
+            if (elemento.src.match("acesa")) {
+                elemento.src="apagada.jfif";
+            } else {
+                elemento.src="acesa.gif";
+            }
+        }
+    </script>
+    <p><img id="myimage" onclick="trocaImagem()"
+    src="acesa.gif" width="100" height="180"></p>
+    <p>Clique na lâmpada para ligar/desligar a luz</p>
+</body>
+</html>
