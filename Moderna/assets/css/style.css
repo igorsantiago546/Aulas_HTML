@@ -10,13 +10,13 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: rgb(2, 48, 255);
+  color: rgb(0, 17, 43);
   
   
 }
 
 a {
-  color: #4fa6d5;
+  color: #001438;
   text-decoration: none;
 }
 
@@ -290,7 +290,7 @@ h6,
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #68A4C4;
+  color: #68a4c4;
 }
 
 .navbar-mobile .getstarted,
@@ -424,7 +424,7 @@ h6,
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #68A4C4;
+  border: 2px solid #204457;
 }
 
 #hero .btn-get-started:hover {
